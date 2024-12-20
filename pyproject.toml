@@ -1,0 +1,45 @@
+[project]
+name = "TerminalAlert"
+version = "1.0.0"
+authors = [
+    { name = "Emmanuel C. Jemeni", email = "jemenichinonso11@gmail.com" }
+]
+description = "Command Completion Alerts – Stay Notified, Stay Productive!"
+readme = "PYPI_README.rst"
+requires-python = ">=3.6"
+license = { file = "LICENSE" }
+keywords = [
+  "Command",
+  "Notifications",
+  "Terminal",
+  "Productivity",
+  "Automation",
+  "Success",
+  "Execution",
+  "Alerts",
+  "CLI",
+  "Multitasking"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "notify_py>=0.3.43"
+]
+
+[project.scripts]  # Optional
+terminalalert = "TerminalAlert.main:terminal_alert"
+
+[project.urls]
+"Homepage" = "https://github.com/Jemeni11/TerminalAlert"
+"Bug Tracker" = "https://github.com/Jemeni11/TerminalAlert/issues"
+"Changelog" = "https://github.com/Jemeni11/TerminalAlert/blob/master/CHANGELOG.md"
+
+[build-system]
+# These are the assumed default build requirements from pip:
+# https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
