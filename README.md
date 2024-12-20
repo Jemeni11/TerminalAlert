@@ -23,11 +23,6 @@
     Command Completion Alerts – Stay Notified, Stay Productive!
     <br />
     <a href="https://github.com/Jemeni11/TerminalAlert"><strong>Explore the repo »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/Jemeni11/TerminalAlert/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/Jemeni11/TerminalAlert/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
