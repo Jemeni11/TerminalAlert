@@ -59,7 +59,7 @@ def terminal_alert(cmd: str) -> None:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Run a command and notify on completion.")
+    parser = argparse.ArgumentParser(description="Command Completion Alerts – Stay Notified, Stay Productive!")
     parser.add_argument("command", help="The command to run.")
     args = parser.parse_args()
 
