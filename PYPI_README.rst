@@ -1,6 +1,5 @@
-############
 TerminalAlert
-############
+=============
 
 |contributors| |forks| |stars| |issues| |license|
 
