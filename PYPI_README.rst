@@ -57,10 +57,9 @@ Features
    This behavior depends on how the specific application writes to ``stdout`` and ``stderr``.
 
 .. warning::
-   This tool is only partially complete on Windows. When it sends notifications,
-   it will **NOT** display TerminalAlert as the notification title. The title will likely display 'Python' or a similar
-   default. The same goes for the icon next to the title. If you mute TerminalAlert notifications
-   on Windows, you will be unable to enable them again. This is a known Windows bug with a fix in progress.
+   This tool is only partially complete on Windows. When it sends notifications, it may not display
+   the icon next to the title. If you mute TerminalAlert notifications on Windows, you will be unable
+   to enable them again. This is a known Windows bug with a fix in progress.
 
 Installation
 ============
