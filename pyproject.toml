@@ -1,6 +1,6 @@
 [project]
 name = "TerminalAlert"
-version = "1.0.0"
+version = "1.1.0"
 authors = [
     { name = "Emmanuel C. Jemeni", email = "jemenichinonso11@gmail.com" }
 ]
@@ -31,8 +31,8 @@ dependencies = [
     "packaging>=24.2"
 ]
 
-[project.scripts]  # Optional
-terminalalert = "TerminalAlert.main:terminal_alert"
+[project.scripts]
+terminalalert = "TerminalAlert.main:main"
 
 [project.urls]
 "Homepage" = "https://github.com/Jemeni11/TerminalAlert"

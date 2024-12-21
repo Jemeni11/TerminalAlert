@@ -7,7 +7,7 @@ from notifypy import Notify
 import time
 from .utils import check_for_update
 
-__version__ = "1.0.0"
+__version__ = "1.1.0"
 
 notification = Notify(
     default_notification_application_name="TerminalAlert",
@@ -62,7 +62,7 @@ def terminal_alert(cmd: str) -> None:
     print(f"Execution time: {execution_time:.2f} seconds")
 
 
-if __name__ == "__main__":
+def main() -> None:
     parser = argparse.ArgumentParser(description="Command Completion Alerts – Stay Notified, Stay Productive!")
     parser.add_argument("command", help="The command to run.")
     parser.add_argument(
@@ -79,3 +79,7 @@ if __name__ == "__main__":
         sys.exit()
 
     terminal_alert(args.command)
+
+
+if __name__ == "__main__":
+    main()
