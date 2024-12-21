@@ -20,7 +20,7 @@
   <h1 align="center">TerminalAlert</h1>
 
   <p align="center">
-    Command Completion Alerts – Stay Notified, Stay Productive!
+    Command Completion Alerts—Stay Notified, Stay Productive!
     <br />
     <a href="https://github.com/Jemeni11/TerminalAlert"><strong>Explore the repo »</strong></a>
   </p>
@@ -110,7 +110,7 @@ _TerminalAlert does not save any of your commands._
 ```
 usage: terminalalert [-h] [-u] command
 
-Command Completion Alerts – Stay Notified, Stay Productive!
+Command Completion Alerts—Stay Notified, Stay Productive!
 
 positional arguments:
   command       The command to run.

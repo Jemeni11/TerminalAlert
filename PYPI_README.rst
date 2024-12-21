@@ -3,7 +3,7 @@ TerminalAlert
 
 |contributors| |forks| |stars| |issues| |license|
 
-Command Completion Alerts – Stay Notified, Stay Productive!
+Command Completion Alerts—Stay Notified, Stay Productive!
 
 `Explore the repo <https://github.com/Jemeni11/TerminalAlert>`_
 
@@ -83,7 +83,7 @@ execute as an argument, and you'll receive a desktop notification upon its compl
 
    usage: terminalalert [-h] [-u] command
 
-   Command Completion Alerts – Stay Notified, Stay Productive!
+   Command Completion Alerts—Stay Notified, Stay Productive!
 
    positional arguments:
      command       The command to run.
