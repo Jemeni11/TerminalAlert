@@ -7,7 +7,7 @@ from notifypy import Notify
 import time
 from .utils import check_for_update
 
-__version__ = "1.2.0"
+__version__ = "1.2.1"
 
 notification = Notify(
     default_notification_application_name="TerminalAlert ",
