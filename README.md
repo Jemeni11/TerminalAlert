@@ -228,4 +228,4 @@ or [Buy Me A Coffee](https://www.buymeacoffee.com/jemeni11).
 
 [license-shield]: https://img.shields.io/github/license/Jemeni11/TerminalAlert.svg?style=for-the-badge
 
-[license-url]: https://github.com/Jemeni11/TerminalAlert/blob/master/LICENSE.txt
+[license-url]: https://github.com/Jemeni11/TerminalAlert/blob/master/LICENSE
