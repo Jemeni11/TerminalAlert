@@ -8,7 +8,7 @@ Command Completion Alerts – Stay Notified, Stay Productive!
 `Explore the repo <https://github.com/Jemeni11/TerminalAlert>`_
 
 Table of Contents
-================
+=================
 * `Introduction`_
 * `Features`_
 * `Installation`_
@@ -22,7 +22,7 @@ Table of Contents
 * `Changelog`_
 
 Introduction
-===========
+============
 TerminalAlert is a command-line application that keeps you informed about the
 completion of your terminal commands.
 
@@ -63,7 +63,7 @@ Features
    on Windows, you will be unable to enable them again. This is a known Windows bug with a fix in progress.
 
 Installation
-===========
+============
 
 From PyPI (Using PIP)
 --------------------
@@ -95,19 +95,19 @@ execute as an argument, and you'll receive a desktop notification upon its compl
 Examples
 ========
 Hello World
-----------
+-----------
 ::
 
    terminalalert "echo 'Hello World!'"
 
 Clone a repo
------------
+------------
 ::
 
    terminalalert "git clone https://github.com/Jemeni11/TerminalAlert.git"
 
 Check for an update
------------------
+-------------------
 ::
 
    terminalalert -u
@@ -121,14 +121,14 @@ See the `open issues <https://github.com/Jemeni11/TerminalAlert/issues>`_ for a 
 issues).
 
 Why did I build this?
-====================
+=====================
 I was cloning a big git repo while coding. I didn't want to monitor it 24/7, so I minimized the terminal and continued
 coding. To my surprise, when I checked after 10 minutes, the process had failed. My network connection was unreliable
 that day (let's not name the ISP). I retried multiple times, and it failed multiple times. This experience inspired me
 to create a tool that could notify me when a terminal command completes.
 
 Contributing
-===========
+============
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any
 contributions you make are **greatly appreciated**.
 
@@ -143,7 +143,7 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 Wait a minute, who are you?
-==========================
+===========================
 `TerminalAlert <https://github.com/Jemeni11/TerminalAlert>`_ was built by Emmanuel Jemeni, a Frontend Developer with a
 passion for Python.
 
@@ -161,7 +161,7 @@ License
 `MIT License <https://github.com/Jemeni11/TerminalAlert/blob/main/LICENSE>`_.
 
 Changelog
-========
+=========
 `Changelog <https://github.com/Jemeni11/TerminalAlert/blob/main/CHANGELOG.md>`_
 
 .. |contributors| image:: https://img.shields.io/github/contributors/Jemeni11/TerminalAlert.svg?style=for-the-badge
