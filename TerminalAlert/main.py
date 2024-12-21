@@ -7,10 +7,10 @@ from notifypy import Notify
 import time
 from .utils import check_for_update
 
-__version__ = "1.1.0"
+__version__ = "1.2.0"
 
 notification = Notify(
-    default_notification_application_name="TerminalAlert",
+    default_notification_application_name="TerminalAlert ",
     default_notification_icon=join(dirname(realpath(__file__)), 'icons', 'logo.png')
 )
 
@@ -63,8 +63,8 @@ def terminal_alert(cmd: str) -> None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Command Completion Alerts – Stay Notified, Stay Productive!")
-    parser.add_argument("command", help="The command to run.")
+    parser = argparse.ArgumentParser(description="Command Completion Alerts—Stay Notified, Stay Productive!")
+    parser.add_argument("command", help="The command to run.", nargs='?')
     parser.add_argument(
         "-u",
         "--update",
@@ -77,6 +77,9 @@ def main() -> None:
     if args.update:
         check_for_update(__version__)
         sys.exit()
+
+    if not args.command:
+        parser.error("the following arguments are required: command")
 
     terminal_alert(args.command)
 
