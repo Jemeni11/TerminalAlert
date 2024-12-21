@@ -27,7 +27,8 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "notify_py>=0.3.43"
+    "notify_py>=0.3.43",
+    "packaging>=24.2"
 ]
 
 [project.scripts]  # Optional
