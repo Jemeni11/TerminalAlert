@@ -1,9 +1,13 @@
 import argparse
+import sys
 from pathlib import Path
 from os.path import join, dirname, realpath
 import subprocess
 from notifypy import Notify
 import time
+from .utils import check_for_update
+
+__version__ = "1.0.0"
 
 notification = Notify(
     default_notification_application_name="TerminalAlert",
@@ -61,6 +65,17 @@ def terminal_alert(cmd: str) -> None:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Command Completion Alerts – Stay Notified, Stay Productive!")
     parser.add_argument("command", help="The command to run.")
+    parser.add_argument(
+        "-u",
+        "--update",
+        help="Check if a new version is available.",
+        action="store_true",
+    )
+
     args = parser.parse_args()
+
+    if args.update:
+        check_for_update(__version__)
+        sys.exit()
 
     terminal_alert(args.command)
