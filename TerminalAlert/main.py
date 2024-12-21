@@ -11,7 +11,7 @@ __version__ = "1.0.0"
 
 notification = Notify(
     default_notification_application_name="TerminalAlert",
-    default_notification_icon=join(dirname(realpath(__file__)), 'logo.png')
+    default_notification_icon=join(dirname(realpath(__file__)), 'icons', 'logo.png')
 )
 
 
@@ -32,8 +32,8 @@ def send_notification(title: str, message: str) -> None:
         notification.title = title
         notification.message = message
 
-        failure_icon = Path(join(dirname(realpath(__file__)), 'failure.png'))
-        success_icon = Path(join(dirname(realpath(__file__)), 'success.png'))
+        failure_icon = Path(join(dirname(realpath(__file__)), 'icons', 'failure.png'))
+        success_icon = Path(join(dirname(realpath(__file__)), 'icons', 'success.png'))
 
         icon = success_icon if title == "Success" else failure_icon
 
