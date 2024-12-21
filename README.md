@@ -43,8 +43,6 @@ Table of Contents
 - [License](#license)
 - [Changelog](#changelog)
 
-
-
 ## Introduction
 
 TerminalAlert is a command-line application that keeps you informed about the
@@ -56,6 +54,7 @@ Perfect for multitaskers, this tool helps you stay productive without
 having to monitor the terminal constantly.
 
 ### Features
+
 - **Command Completion Alerts**: Receive desktop notifications when your terminal commands finish executing.
 - **Detailed Command Summary**: After execution, the terminal displays:
     - `Output`: Standard output (if any).
@@ -83,9 +82,10 @@ having to monitor the terminal constantly.
 > [!WARNING]
 >
 > This tool is only partially complete on Windows. When it sends notifications,
-> it will **NOT** display TerminalAlert as the notification title. The title will likely display 'Python' or a similar default.
+> it will **NOT** display TerminalAlert as the notification title. The title will likely display 'Python' or a similar
+> default.
 > The same goes for the icon next to the title. If you mute TerminalAlert notifications
-> on Windows, you will be unable to enable them again. This is a Windows bug that's being worked on.
+> on Windows, you will be unable to enable them again. This is a known Windows bug with a fix in progress.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -102,7 +102,7 @@ pip install TerminalAlert
 
 ## Usage
 
-TerminalAlert is straightforward to use. Simply pass the command you want to
+TerminalAlert is easy to use. Simply pass the command you want to
 execute as an argument, and you'll receive a desktop notification upon its completion.
 
 _TerminalAlert does not save any of your commands._
@@ -149,24 +149,27 @@ options:
 - [x] Initial MVP with desktop notifications
 - [ ] Fix Windows specific issues
 
-See the [open issues](https://github.com/Jemeni11/TerminalAlert/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Jemeni11/TerminalAlert/issues) for a full list of proposed features (and known
+issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Why did I build this?
 
-I was cloning a big git repo while coding. I didn't want to monitor it 24/7, so I minimized the terminal and
-continued coding. To my surprise, when I checked after 10 minutes, the process had failed.
-My network connection was unreliable that day (let’s not name the ISP). I retried multiple times, and it failed multiple times
-This experience inspired me to create a tool that could notify me when a terminal command completes.
+I was cloning a big git repo while coding. I didn't want to monitor it 24/7, so I minimized the terminal and continued
+coding. To my surprise, when I checked after 10 minutes, the process had failed. My network connection was unreliable
+that day (let's not name the ISP). I retried multiple times, and it failed multiple times. This experience inspired me
+to create a tool that could notify me when a terminal command completes.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any
+contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also
+simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
@@ -177,12 +180,10 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- CREDITS -->
-
 ## Wait a minute, who are you?
 
-[TerminalAlert](https://github.com/Jemeni11/TerminalAlert) was built by Emmanuel Jemeni, a Frontend Developer with a passion for Python.
+[TerminalAlert](https://github.com/Jemeni11/TerminalAlert) was built by Emmanuel Jemeni, a Frontend Developer with a
+passion for Python.
 
 You can find me on various platforms:
 
@@ -190,14 +191,11 @@ You can find me on various platforms:
 - [GitHub](https://github.com/Jemeni11)
 - [Twitter](https://twitter.com/Jemeni11_)
 
-
-If you'd like, you can support me on [GitHub Sponsors](https://github.com/sponsors/Jemeni11/) or [Buy Me A Coffee](https://www.buymeacoffee.com/jemeni11).
+If you'd like, you can support me on [GitHub Sponsors](https://github.com/sponsors/Jemeni11/)
+or [Buy Me A Coffee](https://www.buymeacoffee.com/jemeni11).
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- LICENSE -->
 
 ## License
 
@@ -206,22 +204,28 @@ If you'd like, you can support me on [GitHub Sponsors](https://github.com/sponso
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Changelog
+
 [Changelog](/CHANGELOG.md)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 [contributors-shield]: https://img.shields.io/github/contributors/Jemeni11/TerminalAlert.svg?style=for-the-badge
+
 [contributors-url]: https://github.com/Jemeni11/TerminalAlert/graphs/contributors
 
 [forks-shield]: https://img.shields.io/github/forks/Jemeni11/TerminalAlert.svg?style=for-the-badge
+
 [forks-url]: https://github.com/Jemeni11/TerminalAlert/network/members
 
 [stars-shield]: https://img.shields.io/github/stars/Jemeni11/TerminalAlert.svg?style=for-the-badge
+
 [stars-url]: https://github.com/Jemeni11/TerminalAlert/stargazers
 
 [issues-shield]: https://img.shields.io/github/issues/Jemeni11/TerminalAlert.svg?style=for-the-badge
+
 [issues-url]: https://github.com/Jemeni11/TerminalAlert/issues
 
 [license-shield]: https://img.shields.io/github/license/Jemeni11/TerminalAlert.svg?style=for-the-badge
+
 [license-url]: https://github.com/Jemeni11/TerminalAlert/blob/master/LICENSE.txt
