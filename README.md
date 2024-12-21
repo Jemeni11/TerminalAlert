@@ -108,12 +108,12 @@ execute as an argument, and you'll receive a desktop notification upon its compl
 _TerminalAlert does not save any of your commands._
 
 ```
-usage: terminalalert [-h] command
+usage: terminalalert [-h] [-u] command
 
-Run a command and notify on completion.
+Command Completion Alerts – Stay Notified, Stay Productive!
 
 positional arguments:
-  command     The command to run.
+  command       The command to run.
 
 options:
   -h, --help    show this help message and exit
