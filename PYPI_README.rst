@@ -69,7 +69,7 @@ From PyPI (Using PIP)
 ---------------------
 ::
 
-   pip install TerminalAlert``
+   pip install TerminalAlert
 
 
 Usage
