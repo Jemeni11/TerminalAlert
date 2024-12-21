@@ -1,1 +1,2 @@
-graft icons
+include TerminalAlert/icons/*.png
+include TerminalAlert/icons/*.ico
