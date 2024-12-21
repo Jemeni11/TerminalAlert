@@ -13,6 +13,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [//]: # (- **Fixed** for any bug fixes.)
 [//]: # (- **Security** in case of vulnerabilities.)
 
+## [1.2.0] - 2024-12-21
+### Fixed
+- Update command now runs without positional argument `command`.
+- CHANGELOG URL in pyproject.toml
+
+### Changed
+- Description now uses an em-dash.
+- Added a space to the notification title.
+
 ## [1.1.0] - 2024-12-21
 ### Fixed
 - Command Line Arguments not being properly parsed when installed as a package, which prevented TerminalAlert from executing commands
@@ -21,5 +30,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Released TerminalAlert
 
 
+[1.2.0]: https://github.com/Jemeni11/TerminalAlert/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/Jemeni11/TerminalAlert/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/Jemeni11/TerminalAlert/releases/tag/v1.0.0
